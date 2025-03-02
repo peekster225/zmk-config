@@ -39,7 +39,7 @@
 &trans  &kp ESC    &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp TILDE      &kp CARET        &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp GRAVE        &trans
 &trans  &kp MINUS  &kp ASTERISK      &kp EQUAL       &kp UNDERSCORE        &kp DOLLAR     &kp HASH         &kp RCMD               &kp RIGHT_ALT    &kp RCTRL          &kp RIGHT_SHIFT  &trans
 &trans  &kp PLUS   &kp PIPE          &kp AT_SIGN     &kp SLASH             &kp PERCENT    &kp EXCLAMATION  &kp BACKSLASH          &kp AMPERSAND    &kp QUESTION       &trans           &trans
-                                     &trans          &kt LEFT_SHIFT        &kp SPACE      &kp RET          &kt BACKSPACE          &trans
+                                     &trans          &kp LEFT_SHIFT        &kp SPACE      &kp RET          &kp BACKSPACE          &trans
             >;
         };
 
