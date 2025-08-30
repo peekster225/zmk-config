@@ -109,7 +109,7 @@
 
         RBrace {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <31 22>;
+            key-positions = <22 32>;
         };
 
         LParen {
@@ -199,7 +199,7 @@
 
         LeftBackspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <17 16 15 14>;
+            key-positions = <16 15 13 14>;
         };
     };
 
