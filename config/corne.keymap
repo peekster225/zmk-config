@@ -246,18 +246,18 @@
 
         command {
             bindings = <
-&trans  &kp LG(Q)  &kp LG(W)  &kp LG(F)  &kp LG(P)  &kp LG(B)    &kp LG(J)  &kp LG(L)  &kp LG(U)      &kp LG(Y)    &kp LG(SEMICOLON)  &trans
-&trans  &kp LG(A)  &kp LG(R)  &kp LG(S)  &kp LG(T)  &kp LG(G)    &kp LG(M)  &kp LG(N)  &kp LG(E)      &kp LG(I)    &kp LG(O)          &trans
-&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(D)  &kp LG(V)    &kp LG(K)  &kp LG(H)  &kp LG(COMMA)  &kp LG(DOT)  &kp LG(SLASH)      &trans
-                              &trans     &trans     &trans       &trans     &trans     &trans
+&trans            &kp LG(Q)  &kp LG(W)  &kp LG(F)  &kp LG(P)  &kp LG(B)    &kp LG(J)  &kp LG(L)  &kp LG(U)      &kp LG(Y)    &kp LG(SEMICOLON)  &trans
+&kp LEFT_CONTROL  &kp LG(A)  &kp LG(R)  &kp LG(S)  &kp LG(T)  &kp LG(G)    &kp LG(M)  &kp LG(N)  &kp LG(E)      &kp LG(I)    &kp LG(O)          &kp LEFT_CONTROL
+&kp LEFT_SHIFT    &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(D)  &kp LG(V)    &kp LG(K)  &kp LG(H)  &kp LG(COMMA)  &kp LG(DOT)  &kp LG(SLASH)      &kp LEFT_SHIFT
+                                        &trans     &trans     &trans       &trans     &trans     &trans
             >;
         };
 
         misc {
             bindings = <
-&trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_SEL 4    &trans  &trans    &trans          &trans        &trans     &trans
+&trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_SEL 4    &trans  &kp HOME  &kp CAPS        &trans        &trans     &trans
 &trans      &trans        &kp K_MUTE    &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &trans          &trans  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans
-&bt BT_CLR  &trans        &trans        &trans             &trans           &trans          &trans  &trans    &trans          &trans        &trans     &trans
+&bt BT_CLR  &trans        &trans        &trans             &trans           &trans          &trans  &kp TAB   &kp DELETE      &kp END       &trans     &trans
                                         &mo 3              &trans           &kp LCTRL       &trans  &trans    &trans
             >;
         };
